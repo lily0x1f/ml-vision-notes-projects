@@ -57,9 +57,24 @@ Seaborn is a library for making statistical graphics in Python.
 	
 ````
 
+### keras
 
+build and train neural networks
+high level wrapper tensorflow
+````
 
+	from keras.models import Sequential
+from keras.layers import Dense
 
+model = Sequential([
+    Dense(64, activation='relu', input_shape=(10,)),
+    Dense(1, activation='sigmoid')
+])
+model.compile(optimizer='adam', loss='binary_crossentropy')
+model.fit(X_train, y_train, epochs=10, batch_size=32)
+````
 
+burada baya bi kullanım vardı:
+https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/linear_regression_taxi.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=linear_regression#scrollTo=EE7nBxoMUtE9
 
 
