@@ -81,3 +81,66 @@ Proportion of true positive to all positives
 Precision improves as false positives decrease, while recall improves when false negatives decrease. -> conflictingg
 
 <img width="762" height="462" alt="image" src="https://github.com/user-attachments/assets/77330652-60f4-48e9-8a44-44bab7d46b3a" />
+
+
+
+### Classification ROC and AUC
+
+A REciever Operator Characteristic curve constructed by true positive rate(sensitivity) against false positive rate (1-specificity). Curves closer to top left corner->better performance
+
+AUC is basically area under the curve. Represents the probability that the model, if given a randomly chosen positive and negative example, will rank the positive higher than the negative.
+
+ADVANCED
+Precision-recall curve
+
+(x,y) - (precision, recall)
+
+
+If false positive are highly costly, choose a threshold giving a lower FPR.
+
+### Prediction Bias
+
+calculating prediction bias is a quick check that can flag early on.
+Prdeiction bias can be caused by 
+  Noise in data, including biased sampling
+  Oversimplification
+  Bugs in training pipeline
+  Model being insufficient
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
