@@ -4,7 +4,5 @@ It is the method evaluating how well an algorithm models the dataset. (Compares 
 
 Different types of loss functions:
 Mean Squared error
-````
-<img width="354" height="96" alt="image" src="https://github.com/user-attachments/assets/c7354a42-6010-4d00-b9b6-9c9ddb346ecf" />
 
-````
+<img width="311" height="112" alt="image" src="https://github.com/user-attachments/assets/733c42d5-ddf9-4211-a463-617d0a2c401a" />
