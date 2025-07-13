@@ -20,7 +20,7 @@ How to implement gradient descent?
 <img width="336" height="179" alt="image" src="https://github.com/user-attachments/assets/dea481cf-97e2-4ba4-bd89-c98ef9351deb" />
 
 
-with J(w,b) being the cost
+with J(w,b) being the cost, and alpha being the learning rate
 
 ### loss curve
 Helps determining when model is converging or overfitting. 
