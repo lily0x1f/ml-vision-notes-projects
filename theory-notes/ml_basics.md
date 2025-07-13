@@ -17,7 +17,8 @@ An optimization technique to minimize the loss iterativly change wight and bias.
 How to implement gradient descent?
 
 
-<img width="310" height="142" alt="image" src="https://github.com/user-attachments/assets/e2f07f54-a613-426d-a892-e2193acde5e9" />
+<img width="336" height="179" alt="image" src="https://github.com/user-attachments/assets/dea481cf-97e2-4ba4-bd89-c98ef9351deb" />
+
 
 with J(w,b) being the cost
 
