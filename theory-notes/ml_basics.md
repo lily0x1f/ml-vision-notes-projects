@@ -14,6 +14,12 @@ What is outlier? -> check this
 ### Gradient Descent
 
 An optimization technique to minimize the loss iterativly change wight and bias. 
+How to implement gradient descent?
+
+
+<img width="310" height="142" alt="image" src="https://github.com/user-attachments/assets/e2f07f54-a613-426d-a892-e2193acde5e9" />
+
+with J(w,b) being the cost
 
 ### loss curve
 Helps determining when model is converging or overfitting. 
